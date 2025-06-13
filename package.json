@@ -1,0 +1,34 @@
+{
+  "name": "warzone-2044",
+  "version": "1.0.0",
+  "description": "A 2D momentum-based cyber-warfare game featuring dynamic visuals, blockchain interoperability, AI-controlled factions, and a play-to-earn system.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "desktop": "npm run build && electron ."
+  },
+  "dependencies": {
+    "ethers": "^6.14.3",
+    "jest": "^27.0.6",
+    "phaser": "^3.90.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^24.0.1",
+    "electron": "^36.4.0",
+    "vite": "^6.3.5"
+  },
+  "keywords": [
+    "game",
+    "cyber-warfare",
+    "blockchain",
+    "play-to-earn"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
